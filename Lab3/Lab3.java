@@ -32,8 +32,8 @@ public class Lab3 {
 		//Exercise 3: for loop
 		System.out.println("\nAll numbers between 1 and 100 except 50 thru 60");
 		for (int i = 1; i<=100; i++) {
-			if (i == 50 || i == 60) continue;
-			System.out.println(i);
+			if (i >= 50 && i <= 60) continue;
+			System.out.print(i + " ");
 		}
 		
 		//Exercise 4: switch statement
@@ -51,18 +51,9 @@ public class Lab3 {
 				System.out.println(monthNames[loopNumber-1] + ": 28");
 				break;
 			}
-			case 4: {
-				System.out.println(monthNames[loopNumber-1] + ": 30");
-				break;
-			}
-			case 6: {
-				System.out.println(monthNames[loopNumber-1] + ": 30");
-				break;
-			}
-			case 9: {
-				System.out.println(monthNames[loopNumber-1] + ": 30");
-				break;
-			}
+			case 4:
+			case 6:
+			case 9:
 			case 11: {
 				System.out.println(monthNames[loopNumber-1] + ": 30");
 				break;
