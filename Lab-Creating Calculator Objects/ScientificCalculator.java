@@ -11,7 +11,7 @@ public class ScientificCalculator {
 		return Math.exp(x);
 	}
 	
-	public double log(double x) {
+	public static final double log(double x) {
 		return Math.log(x);
 	}
 	
